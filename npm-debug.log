@@ -1,0 +1,137 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sondinh/.nvm/versions/node/v6.9.0/bin/node',
+1 verbose cli   '/Users/sondinh/.nvm/versions/node/v6.9.0/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '.' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/sondinh/Documents/project/research/test-npm',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/sondinh/.npm/test-npm-hello/1.0.2/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/sondinh/.npm correctMkdir not in flight; initializing
+10 info lifecycle test-npm-hello@1.0.2~prepublish: test-npm-hello@1.0.2
+11 silly lifecycle test-npm-hello@1.0.2~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/sondinh/.npm/test-npm-hello/1.0.2/package.tgz',
+12 verbose tar pack   '/Users/sondinh/Documents/project/research/test-npm' ]
+13 verbose tarball /Users/sondinh/.npm/test-npm-hello/1.0.2/package.tgz
+14 verbose folder /Users/sondinh/Documents/project/research/test-npm
+15 verbose addLocalTarball adding from inside cache /Users/sondinh/.npm/test-npm-hello/1.0.2/package.tgz
+16 verbose correctMkdir /Users/sondinh/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd test-npm-hello@1.0.2
+18 verbose afterAdd /Users/sondinh/.npm/test-npm-hello/1.0.2/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/sondinh/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/sondinh/.npm/test-npm-hello/1.0.2/package/package.json written
+21 silly publish { name: 'test-npm-hello',
+21 silly publish   version: '1.0.2',
+21 silly publish   description: 'hello',
+21 silly publish   main: 'index',
+21 silly publish   scripts: { test: 'echo hello' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/dnson/test-npm.git' },
+21 silly publish   author: '',
+21 silly publish   license: 'ISC',
+21 silly publish   bugs: { url: 'https://github.com/dnson/test-npm/issues' },
+21 silly publish   homepage: 'https://github.com/dnson/test-npm#readme',
+21 silly publish   devDependencies:
+21 silly publish    { grunt: '0.4.5',
+21 silly publish      matchdep: '^0.3.0',
+21 silly publish      'grunt-cli': '^1.2.0',
+21 silly publish      'grunt-concurrent': '~2.3.0',
+21 silly publish      'grunt-contrib-compress': '^1.2.0',
+21 silly publish      'grunt-contrib-concat': '^1.0.0',
+21 silly publish      'grunt-contrib-copy': '^1.0.0',
+21 silly publish      'grunt-contrib-csslint': '^1.0.0',
+21 silly publish      'grunt-contrib-cssmin': '~1.0.1',
+21 silly publish      'grunt-contrib-jshint': '~1.0.0',
+21 silly publish      'grunt-contrib-qunit': '^0.5.2',
+21 silly publish      'grunt-contrib-sass': '^1.0.0',
+21 silly publish      'grunt-contrib-stylus': '^0.18.0',
+21 silly publish      'grunt-contrib-uglify': '~1.0.1',
+21 silly publish      'grunt-contrib-watch': '~1.0.0',
+21 silly publish      karma: '~0.13.22',
+21 silly publish      'karma-chrome-launcher': '~0.2.3',
+21 silly publish      'karma-coverage': '~0.5.5',
+21 silly publish      'karma-firefox-launcher': '~0.1.7',
+21 silly publish      'karma-jasmine': '~0.3.8',
+21 silly publish      'karma-ng-html2js-preprocessor': '^0.2.2',
+21 silly publish      'karma-phantomjs-launcher': '~1.0.0',
+21 silly publish      'karma-script-launcher': '^0.2.0',
+21 silly publish      'karma-spec-reporter': '0.0.26',
+21 silly publish      'load-grunt-tasks': '~1.0.0',
+21 silly publish      should: '~4.1.0',
+21 silly publish      sinon: '^1.17.1',
+21 silly publish      supertest: '~0.14.0' },
+21 silly publish   gitHead: '24825cad5ebf86ee3c8fbc45fbbd020636d07d5e',
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: 'test-npm-hello@1.0.2',
+21 silly publish   _shasum: 'f05f9219a8ffed4a4b6cbddae2f73ae92c9b0327',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name test-npm-hello
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'test-npm-hello',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'test-npm-hello',
+26 silly mapToRegistry   name: 'test-npm-hello',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/test-npm-hello
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/sondinh/.npm/test-npm-hello/1.0.2/package.tgz
+30 verbose request uri https://registry.npmjs.org/test-npm-hello
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 10:35:07 PM
+33 verbose request using bearer token for auth
+34 verbose request id a7c3e79353fdf800
+35 http request PUT https://registry.npmjs.org/test-npm-hello
+36 http 403 https://registry.npmjs.org/test-npm-hello
+37 verbose headers { 'content-type': 'application/json',
+37 verbose headers   'cache-control': 'max-age=300',
+37 verbose headers   'content-length': '95',
+37 verbose headers   'accept-ranges': 'bytes',
+37 verbose headers   date: 'Wed, 30 Nov 2016 15:35:08 GMT',
+37 verbose headers   via: '1.1 varnish',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'x-served-by': 'cache-hkg6824-HKG',
+37 verbose headers   'x-cache': 'MISS',
+37 verbose headers   'x-cache-hits': '0',
+37 verbose headers   'x-timer': 'S1480520108.152175,VS0,VE824',
+37 verbose headers   vary: 'Accept-Encoding' }
+38 verbose request invalidating /Users/sondinh/.npm/registry.npmjs.org/test-npm-hello on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: "You cannot publish over the previously published version 1.0.2." : test-npm-hello
+40 verbose stack     at makeError (/Users/sondinh/.nvm/versions/node/v6.9.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/Users/sondinh/.nvm/versions/node/v6.9.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at Request._callback (/Users/sondinh/.nvm/versions/node/v6.9.0/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+40 verbose stack     at Request.self.callback (/Users/sondinh/.nvm/versions/node/v6.9.0/lib/node_modules/npm/node_modules/request/request.js:187:22)
+40 verbose stack     at emitTwo (events.js:106:13)
+40 verbose stack     at Request.emit (events.js:191:7)
+40 verbose stack     at Request.<anonymous> (/Users/sondinh/.nvm/versions/node/v6.9.0/lib/node_modules/npm/node_modules/request/request.js:1044:10)
+40 verbose stack     at emitOne (events.js:96:13)
+40 verbose stack     at Request.emit (events.js:188:7)
+40 verbose stack     at IncomingMessage.<anonymous> (/Users/sondinh/.nvm/versions/node/v6.9.0/lib/node_modules/npm/node_modules/request/request.js:965:12)
+41 verbose statusCode 403
+42 verbose pkgid test-npm-hello
+43 verbose cwd /Users/sondinh/Documents/project/research/test-npm
+44 error Darwin 15.4.0
+45 error argv "/Users/sondinh/.nvm/versions/node/v6.9.0/bin/node" "/Users/sondinh/.nvm/versions/node/v6.9.0/bin/npm" "publish" "."
+46 error node v6.9.0
+47 error npm  v3.10.8
+48 error code E403
+49 error "You cannot publish over the previously published version 1.0.2." : test-npm-hello
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
