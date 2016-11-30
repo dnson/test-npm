@@ -1,0 +1,51 @@
+{
+  "name": "test-npm-hello",
+  "version": "1.0.2",
+  "description": "hello",
+  "main": "index",
+  "scripts": {
+    "test": "echo hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnson/test-npm.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dnson/test-npm/issues"
+  },
+  "homepage": "https://github.com/dnson/test-npm#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "matchdep": "^0.3.0",
+    "grunt": "0.4.5",
+    "grunt-cli": "^1.2.0",
+    "grunt-concurrent": "~2.3.0",
+    "grunt-contrib-compress": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^1.0.0",
+    "grunt-contrib-cssmin": "~1.0.1",
+    "grunt-contrib-jshint": "~1.0.0",
+    "grunt-contrib-qunit": "^0.5.2",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-stylus": "^0.18.0",
+    "grunt-contrib-uglify": "~1.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "karma": "~0.13.22",
+    "karma-chrome-launcher": "~0.2.3",
+    "karma-coverage": "~0.5.5",
+    "karma-firefox-launcher": "~0.1.7",
+    "karma-jasmine": "~0.3.8",
+    "karma-ng-html2js-preprocessor": "^0.2.2",
+    "karma-phantomjs-launcher": "~1.0.0",
+    "karma-script-launcher": "^0.2.0",
+    "karma-spec-reporter": "0.0.26",
+    "load-grunt-tasks": "~1.0.0",
+    "matchdep": "^0.3.0",
+    "should": "~4.1.0",
+    "sinon": "^1.17.1",
+    "supertest": "~0.14.0"
+  }
+}
