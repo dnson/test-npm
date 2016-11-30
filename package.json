@@ -2,7 +2,7 @@
   "name": "test-npm-hello",
   "version": "1.0.4",
   "description": "hello",
-  "main": "index",
+  "main": "index.js",
   "scripts": {
     "test": "echo hello"
   },
